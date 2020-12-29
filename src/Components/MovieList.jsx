@@ -16,7 +16,7 @@ const MovieList = ({ movieData , ratingMovie, movieSearch}) => {
           (movie) =>
             movie.title.toLowerCase().includes(movieSearch.toLowerCase().trim()) &&
             movie.rating >= ratingMovie
-        ).map((movie, i) => ( <MovieCard key={i} movie={movie} />))}
+        ).map((movie, i) => ( <MovieCard  key={i} movie={movie} />))}
       </div>
     );
   };

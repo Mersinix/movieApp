@@ -4,7 +4,9 @@ import MovieList from './Components/MovieList';
 import {movieContainer} from './Components/movieContainer';
 import AddMovie from "./Components/AddModal/AddMovie";
 import SearchMovie from "./Components/SearchMovie";
+import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './App.css';
+import MovieDescription from './Components/MovieDescription';
 
 
 function App() {
@@ -15,10 +17,14 @@ function App() {
     e.preventDefault();
     setMovieData([...movieData, newMovie]);
   };
+  
 
   return (
+   <Router>
     <div className="App">
       <NavBar/>
+      <Switch>
+        <Route exact path="/">
       <AddMovie adding={adding} />
       <div style={{ cursor: "pointer" }}>
         <SearchMovie
@@ -27,11 +33,27 @@ function App() {
           setRatingMovie={setRatingMovie}
         />
       </div>
-      
-      <MovieList movieData={movieData} ratingMovie={ratingMovie} movieSearch={movieSearch}/>
-      
+      <MovieList  
+      movieData={movieData} 
+      ratingMovie={ratingMovie} 
+      movieSearch={movieSearch}
+      />
+      </Route>
+      <Route exact path="/film/:userId">
+        <MovieDescription/>
+      </Route>
+      </Switch>
     </div>
+    </Router>
   );
 }
 
 export default App;
+
+
+
+
+    
+    
+   
+    

@@ -8,6 +8,7 @@ export const movieContainer=[
         image: "/IMG/film1.jpg",
         synopsis:
           "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+          trailer:"https://www.youtube.com/watch?v=epCg2RbyF80&ab_channel=NorthwestFilmCenter",
       },
       {
         id: 2,
@@ -18,6 +19,8 @@ export const movieContainer=[
         image: "/IMG/film4.jpg",
         synopsis:
           "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+          trailer:"https://www.youtube.com/watch?v=QXpxUeL0lz4&ab_channel=MovieTrailersSource",
+          
       },
       {
         id: 3,
@@ -28,6 +31,7 @@ export const movieContainer=[
         image: "/IMG/film10.jpg",
         synopsis:
           "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+          trailer:"https://www.youtube.com/watch?v=L51VHcMrwKU&ab_channel=MovieTrailersSource",
       },
       {
         id: 4,
@@ -38,7 +42,8 @@ export const movieContainer=[
         image: "/IMG/film9.jpg",
         synopsis:
           "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
-      },
+          trailer:"https://www.youtube.com/watch?v=L51VHcMrwKU&ab_channel=MovieTrailersSource",
+        },
       {
         id: 5,
         title: "GREEN-EYE",
@@ -48,7 +53,8 @@ export const movieContainer=[
         image: "/IMG/film5.jpg",
         synopsis:
           "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
-      },
+          trailer:"https://www.youtube.com/watch?v=L51VHcMrwKU&ab_channel=MovieTrailersSource",
+        },
       {
         id: 6,
         title: "BIBLIO",
@@ -58,7 +64,8 @@ export const movieContainer=[
         image: "/IMG/film6.jpg",
         synopsis:
           "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
-      },
+          trailer:"https://www.youtube.com/watch?v=L51VHcMrwKU&ab_channel=MovieTrailersSource",
+        },
       {
         id: 7,
         title: "TE AMO",
@@ -68,7 +75,8 @@ export const movieContainer=[
         image: "/IMG/film7.jpg",
         synopsis:
           "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
-      },
+          trailer:"https://www.youtube.com/watch?v=L51VHcMrwKU&ab_channel=MovieTrailersSource",
+        },
       {
         id: 8,
         title: "SUN OVER",
@@ -78,5 +86,6 @@ export const movieContainer=[
         image: "/IMG/film8.jpg",
         synopsis:
           "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
-      },
+          trailer:"https://www.youtube.com/watch?v=L51VHcMrwKU&ab_channel=MovieTrailersSource",
+        },
 ];

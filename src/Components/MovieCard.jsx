@@ -1,9 +1,18 @@
-import React from "react";
+import React  from "react";
 import RateMovie from "./RateMovie";
+import {Link} from 'react-router-dom';
 
-const MovieCard = ({ movie: { title, rating, year, genre, image, synopsis } }) => {
+
+
+
+
+const MovieCard = ({ movie: {id, title, rating, year, genre, image, synopsis}}) => {
+  
+
   return (
+    <Link className="card-link" to={`/film/${id}`}>
     <div className="Container">
+      
       <div>
         <img src={image} alt="poster" style={{ width: "200px", height: "280px" }} />
       </div>
@@ -16,8 +25,16 @@ const MovieCard = ({ movie: { title, rating, year, genre, image, synopsis } }) =
         </h5>
         <p style={{ fontSize: "13px", textAlign: "justify" }}>{synopsis}</p>
       </div>
+      
     </div>
+    </Link>
+    
   );
 };
 
 export default MovieCard;
+
+
+
+
+   

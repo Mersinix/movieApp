@@ -102,6 +102,44 @@ body {
     rgb(77, 112, 158) 100%
   );
 }
+.card-link{
+  text-decoration: none;
+  color:white;
+}
+.btn-link{
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+}
+.btn-link:hover{
+  text-decoration: none;
+  color: rgb(250, 248, 248);
+}
+.card{
+  margin-left:25%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  width: 60%;
+  height: 500px;
+  background:linear-gradient(to left ,
+     rgba(136, 125, 117, 0.404),rgba(187, 175, 67, 0.507)
+     ,rgba(184, 99, 103, 0.397),rgba(83, 128, 161, 0.404));
+  position: relative;
+  color: black;
+  border-radius: 12px;
+
+}
+.card-desc{
+  width: 40%;
+  height: 200px;
+}
+.img-card{
+  width: 40%;
+  height: 300px;
+  border-radius: 12px;
+}
+
 
 /* @media (prefers-reduced-motion: no-preference) {
   .imago {
